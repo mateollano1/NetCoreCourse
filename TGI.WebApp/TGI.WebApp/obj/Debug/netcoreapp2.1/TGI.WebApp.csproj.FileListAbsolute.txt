@@ -32,3 +32,4 @@ C:\Users\vivelab12\NetCoreCourse\NetCoreCur\TGI.WebApp\TGI.WebApp\obj\Debug\netc
 C:\Users\vivelab12\NetCoreCourse\NetCoreCur\TGI.WebApp\TGI.WebApp\obj\Debug\netcoreapp2.1\TGI.WebApp.dll
 C:\Users\vivelab12\NetCoreCourse\NetCoreCur\TGI.WebApp\TGI.WebApp\obj\Debug\netcoreapp2.1\TGI.WebApp.pdb
 C:\Users\vivelab12\NetCoreCourse\NetCoreCur\TGI.WebApp\TGI.WebApp\obj\Debug\netcoreapp2.1\TGI.WebApp.csproj.CopyComplete
+C:\Users\vivelab12\NetCoreCourse\NetCoreCur\TGI.WebApp\TGI.WebApp\bin\Debug\netcoreapp2.1\appsettings.Production.json
