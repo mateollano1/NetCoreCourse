@@ -1,24 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\vivelab12\\NetCoreCourse\\NetCoreCur\\TGI.WebApp\\TGI.WebApp\\TGI.WebApp.csproj": {}
+    "C:\\Users\\vivelab14\\Source\\Repos\\NetCoreCourse\\TGI.WebApp\\TGI.WebApp\\TGI.WebApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\vivelab12\\NetCoreCourse\\NetCoreCur\\TGI.WebApp\\TGI.WebApp\\TGI.WebApp.csproj": {
+    "C:\\Users\\vivelab14\\Source\\Repos\\NetCoreCourse\\TGI.WebApp\\TGI.WebApp\\TGI.WebApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\vivelab12\\NetCoreCourse\\NetCoreCur\\TGI.WebApp\\TGI.WebApp\\TGI.WebApp.csproj",
+        "projectUniqueName": "C:\\Users\\vivelab14\\Source\\Repos\\NetCoreCourse\\TGI.WebApp\\TGI.WebApp\\TGI.WebApp.csproj",
         "projectName": "TGI.WebApp",
-        "projectPath": "C:\\Users\\vivelab12\\NetCoreCourse\\NetCoreCur\\TGI.WebApp\\TGI.WebApp\\TGI.WebApp.csproj",
-        "packagesPath": "C:\\Users\\vivelab12\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vivelab12\\NetCoreCourse\\NetCoreCur\\TGI.WebApp\\TGI.WebApp\\obj\\",
+        "projectPath": "C:\\Users\\vivelab14\\Source\\Repos\\NetCoreCourse\\TGI.WebApp\\TGI.WebApp\\TGI.WebApp.csproj",
+        "packagesPath": "C:\\Users\\vivelab14\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\vivelab14\\Source\\Repos\\NetCoreCourse\\TGI.WebApp\\TGI.WebApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\vivelab12\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\vivelab14\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.1"
@@ -57,6 +59,10 @@
               "target": "Package",
               "version": "[2.1.0, )",
               "autoReferenced": true
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[2.1.10, )"
             }
           },
           "imports": [

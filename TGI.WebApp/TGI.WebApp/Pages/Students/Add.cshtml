@@ -1,0 +1,19 @@
+﻿@page
+@model TGI.WebApp.Pages.Students.AddModel
+@{
+    ViewData["Title"] = "Add";
+}
+
+<h2>Add</h2>
+<form method="post">
+    Name
+    <input asp-for="Student.Name" />
+    Last Name
+    <input asp-for="Student.lastName" />
+    Nit
+    <input asp-for="Student.Nit" />
+    Age
+    <input asp-for="Student.Age" />
+    <button type="submit">save</button>
+</form>
+<a asp-page="./Index">Return to list</a>

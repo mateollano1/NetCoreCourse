@@ -8,6 +8,7 @@ namespace TGI.WebApp.Data
 {
     public class StudentStore
     {
+        
         private List<Student> Students { get; set; } = new List<Student>();
         public StudentStore()
         {
@@ -46,6 +47,11 @@ namespace TGI.WebApp.Data
                 lastName = "Perez",
                 Nit = "4543589893"
             });
+        }
+
+        internal void AddStudent(Student student)
+        {
+            Students.Add(student);
         }
 
         internal void DeleteStudent(Guid id)
