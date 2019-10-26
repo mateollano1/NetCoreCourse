@@ -61,7 +61,7 @@ using TGI.WebApp;
             WriteLiteral("<h2> Students: </h2>\r\n");
             EndContext();
             BeginContext(133, 1260, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "48d7d6e902dc424389b12aa3f5595a6a", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8a323a1c12ab47d5a38cdf81c821b0ec", async() => {
                 BeginContext(153, 311, true);
                 WriteLiteral(@"
     <table class=""striped responsive-table"">
@@ -138,7 +138,7 @@ using TGI.WebApp;
                 WriteLiteral("</td>\r\n                <td>\r\n                    ");
                 EndContext();
                 BeginContext(776, 208, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "7f564a4ae2d54b40880e0feeddf90261", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "d7675ad5e0204d64ae1050323c121533", async() => {
                     BeginContext(928, 52, true);
                     WriteLiteral("\r\n                        Edit\r\n                    ");
                     EndContext();
@@ -175,7 +175,7 @@ using TGI.WebApp;
                 WriteLiteral("\r\n                </td>\r\n                <td>\r\n                    ");
                 EndContext();
                 BeginContext(1051, 242, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("button", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8051feda14a14cf2addb1c954d16c2c1", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("button", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "38e46bfb19114c93aec89295a27e93a6", async() => {
                     BeginContext(1230, 54, true);
                     WriteLiteral("\r\n                        Delete\r\n                    ");
                     EndContext();
@@ -240,7 +240,7 @@ using TGI.WebApp;
             WriteLiteral("\r\n\r\n");
             EndContext();
             BeginContext(1397, 142, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "e307932afd5542c4aecfcd6a226bb883", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "bf6c096842b347e3abb1c21f25ec9247", async() => {
                 BeginContext(1479, 56, true);
                 WriteLiteral("<i class=\"material-icons left\">add</i>Create new student");
                 EndContext();
