@@ -5,9 +5,9 @@
 }
 <h2> Students: </h2>
 <form method="post">
-    <table style="width:100%">
+    <table class="striped responsive-table">
         <thead>
-            <tr>
+            <tr >
                 <th>Id</th>
                 <th>Name</th>
                 <th>Lastname</th>
@@ -26,10 +26,18 @@
                 <td>@item.Nit</td>
                 <td>@item.Age</td>
                 <td>
-                    <button type="submit"
+                    <a class="btn btn-primary" style="margin-top: 15px;" 
+                            asp-page="Edit"
+                            asp-route-id="@item.Id">
+                        Edit
+                    </a>
+                </td>
+                <td>
+                    <button class="btn btn-danger" style="margin-top: 15px;" type="submit"
                             asp-page-handler="delete"
                             asp-route-id="@item.Id">
-                    Delete</button>
+                        Delete
+                    </button>
                 </td>
             </tr>
             }
@@ -38,4 +46,4 @@
 
 </form>
 
-<a asp-page="Add">Create new student</a>
+<a class="waves-effect waves-light btn " style="margin-top: 10px;" asp-page="Add"><i class="material-icons left">add</i>Create new student</a>

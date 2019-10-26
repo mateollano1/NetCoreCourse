@@ -49,6 +49,22 @@ namespace TGI.WebApp.Data
             });
         }
 
+        internal void EditStudent(Student student)
+        {
+            var currentStudent = GetStudentById(student.Id);
+            currentStudent.Name = student.Name;
+            currentStudent.lastName = student.lastName;
+            currentStudent.Nit = student.Nit;
+            currentStudent.Age = student.Age;
+
+        }
+
+        internal Student GetStudentById(Guid id)
+        {
+            var student = Students.FirstOrDefault(x => x.Id == id);
+            return student;
+        }
+
         internal void AddStudent(Student student)
         {
             Students.Add(student);

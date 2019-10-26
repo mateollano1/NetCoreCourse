@@ -71,3 +71,4 @@ C:\Users\vivelab14\Source\Repos\NetCoreCourse\TGI.WebApp\TGI.WebApp\obj\Debug\ne
 C:\Users\vivelab14\Source\Repos\NetCoreCourse\TGI.WebApp\TGI.WebApp\obj\Debug\netcoreapp2.1\TGI.WebApp.pdb
 C:\Users\vivelab14\Source\Repos\NetCoreCourse\TGI.WebApp\TGI.WebApp\obj\Debug\netcoreapp2.1\TGI.WebApp.csproj.CopyComplete
 C:\Users\vivelab14\Source\Repos\NetCoreCourse\TGI.WebApp\TGI.WebApp\obj\Debug\netcoreapp2.1\Razor\Pages\Students\Add.cshtml.g.cs
+C:\Users\vivelab14\Source\Repos\NetCoreCourse\TGI.WebApp\TGI.WebApp\obj\Debug\netcoreapp2.1\Razor\Pages\Students\Edit.cshtml.g.cs

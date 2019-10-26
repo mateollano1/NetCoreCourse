@@ -1,11 +1,13 @@
 ﻿@page
-@model TGI.WebApp.Pages.Students.AddModel
+@model TGI.WebApp.Pages.Students.EditModel
 @{
-    ViewData["Title"] = "Add";
+    ViewData["Title"] = "Edit";
 }
 
-<h2>Add</h2>
+
+<h2>Edit</h2>
 <form method="post">
+    <input hidden asp-for ="Student.Id" />
     Name
     <input asp-for="Student.Name" />
     Last Name
@@ -18,5 +20,5 @@
         <div class="col-md-1">   <button class="waves-effect waves-light btn" type="submit">save</button> </div>
         <div class="col-md-2">  <a class="waves-effect waves-light btn " asp-page="./Index">Return to list</a> </div>
     </div>
-   
+
 </form>
