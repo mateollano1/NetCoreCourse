@@ -13,6 +13,7 @@ namespace TGI.WebApp.Pages.Students
     {
         public StudentStore StudentStore { get; set; }
         public List<Student> Students { get; set; }
+        public List<Computer> computers { get; set; }
         public IndexModel(StudentStore studentStore)
         {
             StudentStore = studentStore;

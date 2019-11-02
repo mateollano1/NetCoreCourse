@@ -36,7 +36,10 @@ namespace TGI.WebApp
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
 
-            services.AddSingleton<StudentStore>();
+            //services.AddSingleton<StudentStore>();
+            services.AddScoped<StudentStore>();
+            services.AddScoped<ComputerStore>();
+
             services.AddDbContext<TGLContext>(opt => opt.UseSqlServer(Configuration.GetConnectionString("TglSQL")));
         }
 

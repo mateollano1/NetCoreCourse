@@ -20,5 +20,6 @@ namespace TGI.WebApp.Models
         public string Name { get; set; }
         public string lastName { get; set; }
         public int? Age { get; set; }
+        public List<Computer> Computers { get; set; }
     }
 }

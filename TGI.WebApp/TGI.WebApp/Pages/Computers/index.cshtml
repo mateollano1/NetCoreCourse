@@ -1,0 +1,50 @@
+﻿@page
+@model TGI.WebApp.Pages.Computers.indexModel
+@{
+    ViewData["Title"] = "index";
+}
+
+<h2> Computers: </h2>
+<form method="post">
+    <table class="striped responsive-table">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Name</th>
+                <th>Lastname</th>
+                <th>Nit</th>
+                <th>Age</th>
+
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.Computers)
+            {
+                <tr>
+                    <td> @item.Id</td>
+                    <td>@item.Brand</td>
+                    <td>@item.Model</td>
+                    <td>@item.Cpu</td>
+                    <td>@item.Ram</td>
+                    <td>
+                        <a class="btn btn-primary" style="margin-top: 15px;"
+                           asp-page="Edit"
+                           asp-route-id="@item.Id">
+                            Edit
+                        </a>
+                    </td>
+                    <td>
+                        <button class="btn btn-danger" style="margin-top: 15px;" type="submit"
+                                asp-page-handler="delete"
+                                asp-route-id="@item.Id">
+                            Delete
+                        </button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+</form>
+
+<a class="waves-effect waves-light btn " style="margin-top: 10px;" asp-page="Add"><i class="material-icons left">add</i>Create new student</a>

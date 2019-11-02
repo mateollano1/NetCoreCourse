@@ -7,13 +7,14 @@
 <form method="post">
     <table class="striped responsive-table">
         <thead>
-            <tr >
+            <tr>
                 <th>Id</th>
                 <th>Name</th>
                 <th>Lastname</th>
                 <th>Nit</th>
                 <th>Age</th>
-                
+                <th>PC</th>
+
             </tr>
         </thead>
         <tbody>
@@ -25,10 +26,11 @@
                 <td>@item.lastName</td>
                 <td>@item.Nit</td>
                 <td>@item.Age</td>
+                
                 <td>
-                    <a class="btn btn-primary" style="margin-top: 15px;" 
-                            asp-page="Edit"
-                            asp-route-id="@item.Id">
+                    <a class="btn btn-primary" style="margin-top: 15px;"
+                       asp-page="Edit"
+                       asp-route-id="@item.Id">
                         Edit
                     </a>
                 </td>
@@ -38,6 +40,13 @@
                             asp-route-id="@item.Id">
                         Delete
                     </button>
+                </td>
+                <td>
+                    <a class="btn btn-success" style="margin-top: 15px;" type="submit"
+                       asp-page="../Computers/Add"
+                       asp-route-studentid="@item.Id">
+                        PC
+                    </a>
                 </td>
             </tr>
             }
